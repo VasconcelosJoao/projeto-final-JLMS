@@ -1,0 +1,19 @@
+Command: ninja all
+[1/10] Performing build step for 'bootloader'
+[1/1] cd /home/jonas/pspd/projeto-final-JLMS/build/bootloader/esp-idf/esptool_py && /home/jonas/.espressif/python_env/idf5.5_py3.12_env/bin/python /home/jonas/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/jonas/pspd/projeto-final-JLMS/build/bootloader/bootloader.bin
+Bootloader binary size 0x6610 bytes. 0x9f0 bytes (9%) free.
+[2/10] No install step for 'bootloader'
+[3/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/src/wifi.c.obj
+[4/10] Completed 'bootloader'
+[5/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/projeto-final-JLMS.c.obj
+[6/10] Linking C static library esp-idf/main/libmain.a
+[7/10] Generating ld/sections.ld
+[8/10] Linking CXX executable projeto-final-JLMS.elf
+[9/10] Generating binary image from built executable
+esptool.py v4.9.dev5
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/jonas/pspd/projeto-final-JLMS/build/projeto-final-JLMS.bin
+[10/10] cd /home/jonas/pspd/projeto-final-JLMS/build/esp-idf/esptool_py && /home/jonas/.espressif/python_env/idf5.5_py3.12_env/bin/python /home/jonas/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/jonas/pspd/projeto-final-JLMS/build/partition_table/partition-table.bin /home/jonas/pspd/projeto-final-JLMS/build/projeto-final-JLMS.bin
+projeto-final-JLMS.bin binary size 0xdbaf0 bytes. Smallest app partition is 0x100000 bytes. 0x24510 bytes (14%) free.
